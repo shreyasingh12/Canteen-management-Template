@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--we are linking our user defined css code-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
+
+	<title>Registration page</title>
+	<!--<style>
+		body{
+	background-size: contain;
+	background-image: url("http://static1.squarespace.com/static/56f2595e8a65e2db95a7d983/59708dbdb3db2bb651d60316/5a96856e24a694da85a82100/1531285438776/Workplace+Canteens+%285%29.jpg?format=1500w");
+}
+	</style>--->
+</head>
+<body>
+	<section id="cover">
+      <div id="cover-caption">
+        <div class="container">
+          <div class="col-sm-10 col-sm-offset-1"></div>
+          <h1>DivineTreat Cafeteria</h1>
+          <p>sponsered by IT second year "Down to Earth  but still above".</p>
+          <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">sign up</a>
+          <a href="login mera.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Login </a>
+        </div>
+      </div>
+    </section>                
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">DivineTreat Cafeteria</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="aboutt us.html">About Us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="cards.html">MENU<span class="sr-only">(current)</span></a>
+      </li>
+<li class="nav-item active">
+        <a class="nav-link" href="#">Account<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--navigation bar code ends here-->
+
+
+<!--sign in form suru-->
+<div class="signinbox">
+    <img src="data:image/png;base64,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" class="logo">
+    <h1>Sign in</h1>
+    <form action="">
+      <p>Firstname</p>
+      <label for="First name"></label>
+      <input id="Firstname" type="text" name="Firstname" placeholder=" Enter Firstname" required><br>
+      <p>Lastname</p>
+      <label for="Lastname"></label>
+      <input id="Lastname" type="text" name="Lastname" placeholder=" Enter Lastname" required><br>
+      <p>Email</p>
+      <label for="email"></label>
+      <input id="email" type="email" name="email" placeholder="email id" required><br>
+      <p>Password</p>
+      <label for="password"></label>
+      <input type="password" name="password" placeholder="password" required minlength="5" maxlength="15"><br>
+      <p>Confirm password</p>
+      <label for="confirm_password"></label>
+      <input type="password" name="confirm_password" placeholder="password" required minlength="5" maxlength="15"><br>
+      <label for="conditions">I agree to the terms and conditions</label>
+      <input id="conditions" type="checkbox" name=""><br>
+      <input type="submit" name="" value="sign in">
+    </form>
+  </div>
+<!--sign form khatam-->
+</body>
+</html>

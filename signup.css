@@ -1,0 +1,100 @@
+body{
+	background: url(https://cdn.theculturetrip.com/wp-content/uploads/2016/02/restaurant-939435_960_720.jpg);
+	background-size: cover;
+	/*background-position: center;
+	font-family: sans-serif;*/
+}
+
+.signinbox{
+	width: 900px;
+	height: 700px;
+	background:#000;
+	color: #fff;
+	top:0%
+	left:50%;
+	/*position: absolute;
+	transform: translate(-50%,-50%);*/
+	margin-left: 25%;
+	box-sizing: border-box;
+	padding: 100px 150px;
+
+
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	/*top: -50px;
+	left:45%;*/
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.signinbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+.signinbox input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.signinbox input[type="text"], input[type="text"], input[type="email"], input[type="password"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.signinbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 20px;
+
+}
+
+.signinbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+
+}
+
+
+.signinbox input[type="checkbox"]
+{
+	text-decoration:none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+
+}
+
+.signinbox input[type="checkbox"]:hover
+{
+	color: #ffc107;
+
+}

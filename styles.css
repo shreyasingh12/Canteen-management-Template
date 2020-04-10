@@ -1,0 +1,49 @@
+
+/*cover*/
+/*#cover{
+	background:url("https://www.tokyo.grand.hyatt.co.jp/en/restaurants/wp-content/uploads/2017/12/TFKparty01-eyecatch2-480x320.jpg") no-repeat centre centre;
+	background-size: cover;
+	color: white;
+	height: 400px;
+	text-align: centre;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption{
+	width: 100%
+}
+
+#about{
+
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFF_5jZgD491U30q2_TbQVvpf7wmiAo6VRYj8FLIQoPkue-f7UMQ&s.jpg")  no-repeat centre centre;
+	background-size: cover;
+}
+
+.about-text{
+	background: rgb(0,0,0,0.8);
+}*/
+#cover{
+	background-size: cover;
+	background-image: url(https://static-news.moneycontrol.com/static-mcnews/2017/07/food-liquor-restaurant-dine-meal-1280-720-770x433.jpg);
+}
+
+
+
+#card-images-bg{
+	background-image: url(https://www.stlmag.com/downloads/291284/download/0219_Elmwood_0016.jpg?cb=05f56521ae049e15a8f3d244cafb3822&w=640);
+}
+
+
+#about{
+	background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2016/02/restaurant-939435_960_720.jpg);
+	background-size: cover;
+}
+
+
+.about-text{
+	background: rgba(0,0,0,1);
+	color: #ffffff;
+	padding: 1.875rem;
+
+}
